@@ -1,5 +1,5 @@
 function getWindDirectionIconCode(angle) {
-    const iconCodes = ['\uf060', '\uf05e', '\uf061', '\uf05b', '\uf05c', '\uf05a', '\uf059', '\uf05d']
+    const iconCodes = ['\uf044', '\uf043', '\uf048', '\uf087', '\uf058', '\uf057', '\uf04d', '\uf088']
     let n = Math.round((angle + 22.5) / 45) - 1
     var iconCode = iconCodes[n]
     if (!iconCode) {
