@@ -72,7 +72,7 @@ Item {
     property color gridColorHighlight: textColorLight ? Qt.tint(Kirigami.Theme.textColor, '#50000000') : Qt.tint(Kirigami.Theme.textColor, '#50FFFFFF')
     property color gridColorBrightHighlight: textColorLight ? Qt.tint(Kirigami.Theme.textColor, '#25000000') : Qt.tint(Kirigami.Theme.textColor, '#25FFFFFF')
     property color pressureColor: textColorLight ? Qt.tint(Kirigami.Theme.positiveTextColor, '#80FFFFFF') : Kirigami.Theme.positiveTextColor
-    property color temperatureWarmColor: textColorLight ? Qt.tint(Kirigami.Theme.negativeTextColor, '#70FFFFFF') : Kirigami.Theme.negativeTextColor
+    property color temperatureWarmColor: textColorLight ? Qt.tint(Kirigami.Theme.negativeTextColor, '#80FFFFFF') : Kirigami.Theme.negativeTextColor
     property color temperatureColdColor: Kirigami.Theme.visitedLinkColor
     property color rainColor: Kirigami.Theme.linkColor // textColorLight ? Qt.tint(Kirigami.Theme.linkColor, '#25FFFFFF') : Qt.tint(Kirigami.Theme.linkColor, '#50000000')
 
